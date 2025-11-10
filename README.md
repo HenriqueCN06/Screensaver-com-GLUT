@@ -35,7 +35,6 @@ Siga estas três etapas rápidas, copiando os arquivos da pasta freeglut (presen
 | :--- | :--- | :--- |
 | Pasta **`GL`** | `freeglut/include/` | `[...]\MinGW64\include\` |
 | Arquivos **`.a`** | `freeglut/lib/` | `[...]\MinGW64\lib\` |
-| Arquivo **`freeglut.dll`** | `freeglut/bin/` | `[...]\MinGW64\bin\` |
 
   2. Configurar o Linker
     Você deve dizer ao Dev-C++ quais bibliotecas usar durante a compilação:
