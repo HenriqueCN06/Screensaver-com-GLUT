@@ -1,4 +1,5 @@
 🚀 Protetor de Tela Animado em C com GLUT
+
 Este projeto é uma simulação simples de um protetor de tela (screensaver), desenvolvido em C e utilizando a biblioteca gráfica GLUT (OpenGL Utility Toolkit). O objetivo é animar um quadrado que se move continuamente pela janela, reagindo de forma interativa a colisões com as bordas.
 
 ✨ O que o Projeto Faz
