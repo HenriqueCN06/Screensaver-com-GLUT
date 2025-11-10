@@ -1,0 +1,6 @@
+Animacao.dev
+Animacao.exe
+*.exe
+*.dev
+Animacao
+freeglut.dll
