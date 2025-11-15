@@ -1,4 +1,4 @@
-🚀 Protetor de Tela Animado em C com GLUT
+# 🚀 Protetor de Tela Animado em C com GLUT
 
 Este projeto é uma simulação simples de um protetor de tela (screensaver), desenvolvido em C e utilizando a biblioteca gráfica GLUT (OpenGL Utility Toolkit). O objetivo é animar um quadrado que se move continuamente pela janela, reagindo de forma interativa a colisões com as bordas.
 
@@ -12,8 +12,9 @@ A animação principal é centrada em um quadrado que possui o seguinte comporta
   3. Feedback Visual de Colisão: A cada colisão, o quadrado exibe duas alterações visuais:
     - Mudança de Cor: Sua cor é alterada para uma nova cor aleatória (RGB).
     - Crescimento Progressivo: Seu tamanho é aumentado ligeiramente a cada colisão, até atingir um tamanho máximo predefinido (MAX_SIZE).
-
-⚙️ Detalhes da Implementação
+     
+---
+## ⚙️ Detalhes da Implementação
   1. Desenvolvimento: O projeto foi desenvolvido no ambiente Dev-C++ (mas o código é em C puro).
 
   2. Animação: A animação e a lógica de movimento são controladas pela função timer da GLUT, que garante a atualização constante e fluida do estado do objeto. O intervalo de 10ms (TIMER_INTERVAL) define a velocidade da animação.
@@ -24,7 +25,8 @@ A animação principal é centrada em um quadrado que possui o seguinte comporta
 
 Este projeto é um excelente ponto de partida para entender os fundamentos da animação 2D, detecção de colisão e o uso do pipeline de eventos e callbacks da biblioteca GLUT.
 
-🔧 Configuração Rápida da freeglut (Dev-C++)
+---
+## 🔧 Configuração Rápida da freeglut (Dev-C++)
 Para compilar este projeto, você precisará da biblioteca freeglut configurada no seu ambiente Dev-C++ (MinGW).
 
 Siga estas três etapas rápidas, copiando os arquivos da pasta freeglut (presente neste repositório) para as pastas correspondentes do seu Dev-C++:
